@@ -1,0 +1,996 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: 0px auto;
+}
+
+.container_flex{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid lightgray thin;
+}
+
+.header_gore{
+    border-bottom: solid lightgray thin;
+    width: 100%;
+}
+
+.header_gore ul{
+    height: 40px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: lightgray 1px;
+    
+}
+
+.header_gore ul li a{
+    text-decoration: none;
+    color: #222e60;
+    display: block;
+    padding: 3px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.header_image{
+    height: 110px;
+    padding: 10px;
+    border-bottom: solid lightgray thin;
+}
+.header_image img{
+    height: 90px;
+}
+
+.header_dole{
+    
+    height: 55px;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+}
+
+.header_dole ul{
+    height: 55px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    /* padding-left: 45px; */
+}
+
+.header_dole ul li a{
+    text-decoration: none;
+    padding: 8px;
+    line-height: 27px;
+    color: #002169;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.ispod_headera{
+    height: 120px;
+    border-bottom: solid lightgray thin;
+}
+
+.centralni{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    border-bottom: solid lightgray thin;
+    padding: 24px 0px;
+    border-bottom: solid thin #002169;
+    /* margin-bottom: 100px; */
+}
+.ispod_centralnog{
+    height: 100px;
+}
+.centralni_levo{
+    flex-basis: 75%;
+    display: flex;
+    
+}
+
+.velika_vest{
+    flex-basis: 60%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.velika_vest_img img{
+    width: 100%;
+    
+}
+
+.velika_vest_tekst{
+    padding-top: 16px;
+}
+
+.velika_vest_tekst h3{
+    color: #403e3e;
+    font-size: 33.6px;
+    line-height: 40px;
+    margin-bottom: 8px;
+    letter-spacing: -1px;
+}
+
+.velika_vest_tekst p{
+    font-size: 17.6px;
+    line-height: 24.2px;
+    letter-spacing: normal;
+    color: #848484;
+}
+
+.span{
+    color: #002169;
+    padding-bottom: 16px;
+}
+
+.span_2{
+    color: #002169;
+}
+
+.male_vesti{
+    flex-basis: 45%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mala_vest{
+    display: flex;
+    flex-direction: row;
+    /* height: 105px; */
+    margin-bottom: 15px;
+}
+
+.mala_vest_tekst{
+    flex-basis: 70%;
+    border-left: solid 2px purple;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mala_vest_tekst h3{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    align-items: center;
+    padding-bottom: 33px;
+    color: #403e3e;
+}
+
+.mala_vest_img img{
+    width: 105px;
+    height: 105px;
+}
+
+.centralni_desno{
+    flex-basis: 25%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading_desno{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.375;
+    color: #002169;
+    border-right: purple solid 2px;
+    padding-right: 8px;
+    /* width: 125px; */
+    margin-bottom: 16px;
+    width: fit-content;
+}
+
+.najmanja_vest{
+    border-left: purple solid 2px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.najmanja_vest_tekst{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5rem;
+    align-items: center;
+    color: #403e3e;
+}
+
+.drugi_centralni{
+    border-top: solid thin #002169;
+    padding-left: 15px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid thin #002169;
+    margin-bottom: 30px;
+}
+
+.centralni_levo_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.srednje_vesti{
+    display: flex;
+    padding-right: 16px;
+    flex-wrap: wrap;
+}
+
+.srednja_vest{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 28%;
+    margin-right: 20px;
+}
+
+.srednja_vest_tekst{
+    border-left: solid 2px purple;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 20px;
+    margin-bottom: 33px;
+    color: #403e3e;
+    /* width: 298px; */
+}
+
+.srednja_vest_img img{
+    width: 100%;
+    border-radius: 1%;
+    background-color: #002169;
+}
+
+.polovine{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.polovina_levo{
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+.polovina_desno{
+    border-left: solid 2px purple;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+.mini_vesti{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini_vest{
+    flex-basis: 50%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.mini_vest_img img{
+    width: 56px
+}
+
+.mini_vest_tekst{
+    flex-basis: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mini_vest_tekst h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.mini_vest_tekst p{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #002169;
+}
+
+.pogledaj_vise{
+    text-align: right;
+    padding: 16px 8px;
+    margin-right: 15px;
+    color: #002169;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#desktop{
+    text-align: center;
+}
+
+.izjave{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.izjava{
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.izjave_img img{
+    width: 56px;
+    border-radius: 50%;
+}
+
+.plavo{
+    background-color: #002169;
+    width: 100%;
+}
+
+.cont_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.levo{
+    flex-basis: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.heading_beli{
+    padding: 20px;
+    font-size: 28px;
+    line-height: 32px;
+    color: white;
+    /* margin-top: 10px; */
+}
+
+.levo img{
+    width: 190px;
+}
+
+.sredina{
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.sredina h1{
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+}
+
+.sredina p{
+    color: white;
+    font-size: 17px;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.desno{
+    flex-basis: 24%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desno img{
+    width: 200px;
+}
+
+.desno p{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.desno h6{
+    color: #e9eaea;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ljubicasti{
+    padding: 10px;
+    border-radius: 6%;
+    background-color: #94368e;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.polovine_2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.polovina_levo_2{
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+.polovina_levo_article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading_crni{
+    padding: 20px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #002169;
+    /* margin-top: 10px; */
+}
+
+.polovina_levo_article img{
+    width: 628px;
+}
+
+.polovina_desno_2{
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.article_num{
+    font-size: 60px;
+    color: lightgray;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 10%;
+}
+
+.article_tekst{
+    padding-left: 20px;
+    flex-basis: 89%;
+}
+
+.article_tekst p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #403e3e;
+    padding-top: 20px;
+}
+
+.trecine{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    border-top: solid 1px #002169;
+}
+
+#bbc{
+    width: 15%;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.trecine_articles{
+    display: flex;
+    flex-direction: row;
+    flex-basis:100%;
+}
+
+.trecina{
+    display: flex;
+    flex-basis: 33%;
+    border-right: #94368e solid 2px;
+    padding-left: 30px;
+}
+
+.trecina_slika img{
+    width:100px;
+    height: 100px;
+}
+
+.trecina_tekst{
+    padding: 10px 20px;
+}
+
+.trecina_tekst p{
+    color: #403e3e;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.trecina_tekst span{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #002169;
+}
+
+.cetvrtine{
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px #002169;
+    padding: 20px;
+}
+
+.cetvrtine_articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cetvrtina{
+    display: flex;
+    flex-basis: 47%;
+    border-right: #94368e solid 2px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.cetvrtina_img img{
+    width: 155px;
+    height: 155px;
+}
+
+.cont_3{
+    padding-top: 33px;
+    flex-basis: 70%;
+}
+
+.cont_3 h1{
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+}
+.cont_3 p{
+    color: white;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+#email{
+    width: 80%;
+    margin-top: 19px;
+    height: 46px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+#pretplati_se{
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    /* background-color: #f4f4f7; */
+}
+
+.footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: #002169;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.footer ul li{
+    padding-bottom: 10px;
+}
+
+.container_footer{
+    background-color: #f4f4f7;
+    flex-basis: 100%;
+    margin: 0px auto;
+}
+
+.footer1{
+    flex-basis: 24%;
+}
+.footer2{
+    flex-basis: 24%;
+}
+.footer3{
+    flex-basis: 24%;
+}
+.footer4{
+    flex-basis: 24%;
+}
+
+.pr{
+    padding-right: 10px;
+}
+
+.povratak{
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: lightgray solid 1px;
+}
+
+.povratak p{
+    color: grey;
+    padding-left: 5px;
+}
+.centralni_levo_3{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+.najveca_vest{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    pad: 16px;
+}
+
+.najveca_vest_img{
+    padding-bottom: 24px;
+}
+.najveca_vest_img img{
+    width: 100%;
+}
+
+.ispod{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.ispod_najvece{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-right: purple 2px solid;
+}
+
+.ispod_najvece_img{
+    flex-basis: 25%;
+}
+
+.ispod_najvece_img img{
+    width: 160px;
+    height: 160px;
+}
+
+.ispod_najvece_tekst{
+    padding-left: 20px;
+}
+
+.stranice{
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border-top: lightgray 1px solid;
+    border-bottom: lightgray 1px solid;
+    display: flex;
+    margin-bottom: 100px;
+}
+.centralni_desno_2{
+    flex-basis: 29%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vest_desno{
+    display: flex;
+}
+
+.vest_desno_image img{
+    width:75px;
+    height: 75px;
+}
+
+.vest_desno_teskt{
+    padding: 10px;
+}
+
+.vest_desno_teskt p{
+    color: #403e3e;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.vest_desno_teskt span{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #002169;
+}
+
+.izjava_2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.header_sa_sakrivenim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_sakriveni{
+    background-color: gray;
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+}
+
+
+.header_sakriveni a{
+    color: #002169;
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+    line-height: 27px;
+    /* border-top: lightgray solid thin; */
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.hamburger {
+    width: 50px;
+    height: 42px;
+    position: fixed;
+    right: 5%;
+    top: 5px;
+    background-color: #002169;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1000px){
+    .header_sakriveni{
+        display: none;
+    }
+    #mobilni{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .header_gore{
+        display: none;
+    }
+    .container{
+        width: 80%;
+    }
+    .centralni{
+        flex-direction: column;
+    }
+    .centralni_desno{
+        padding-top: 20px;
+    }
+    .velika_vest{
+        flex-basis: 50%;
+    }
+    
+    .male_vesti{
+        flex-basis: 50%;
+    }
+
+    .mala_vest_img img{
+        width: 80px;
+        height: 80px;
+    }
+    .srednja_vest{
+        flex-basis: 90%;
+    }
+    .polovine{
+        flex-direction: column;
+    }
+    .mini_vesti{
+        flex-direction: column;
+    }
+    .mini_vest{
+        flex-basis: 100%;
+    }
+    .mini_vest_img img{
+        width: 115px;
+    }
+    .izjave{
+        flex-direction: column;
+    }
+    .cont_2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .levo{
+        margin-bottom: 20px;
+    }
+    .sredina{
+        border: none;
+        margin-bottom: 20px;
+    }
+    .desno{
+        margin-bottom: 20px;
+    }
+    .trecine_articles{
+        flex-direction: column;
+    }
+    .polovine_2{
+        flex-direction: column;
+    }
+    .polovina_levo_2{
+        margin-top: 20px;
+    }
+    .cetvrtine_articles{
+        flex-direction: column;
+    }
+    .cetvrtina{
+        flex-basis: 100%;
+    }
+    .cont_3{
+        flex-basis: 100%;
+    }
+    #bbc{
+        width: 45%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .linija {
+        width: 100%;
+        height: 7px;
+        background-color: white;
+    }
+    .show {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        z-index: 1;
+        color: #002169;
+        background-color: #002169;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation-name: pomeri;
+        animation-duration: 1s;
+    }
+    .hide {
+        display: none;
+    }
+    @keyframes pomeri {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 12.5%;
+        }
+    }
+    #nav_meni ul li a{
+        color: white;
+    }
+    #nav_meni ul li{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .ispod_najvece{
+        width: 100%;
+    }
+    .centralni_desno_2{
+        flex-basis: 100%;
+    }
+    .vest_desno{
+        justify-content: space-between;
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        width: 90%;
+    }
+    .centralni_levo{
+        flex-direction: column;
+        border-bottom: solid lightgray thin;
+    }
+    .velika_vest{
+        border-bottom: solid lightgray thin;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .mala_vest_img img{
+        width: 115px;
+        height: 115px;
+    }
+    #desktop{
+        display: none;
+    }
+    
+    #vidise{
+        font-size: 25px;
+    }
+}
